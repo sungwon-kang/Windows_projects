@@ -1,0 +1,15 @@
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\bin\Debug\ChattingServer.exe.config
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\bin\Debug\ChattingServer.exe
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\bin\Debug\ChattingServer.pdb
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\MainWindow.g.cs
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\App.g.cs
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer_MarkupCompile.cache
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer_MarkupCompile.lref
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\MainWindow.baml
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer.g.resources
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer.Properties.Resources.resources
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer.csproj.GenerateResource.cache
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer.csproj.CoreCompileInputs.cache
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer.exe
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer.pdb
+C:\Users\GamingPC\Source\Repos\ChattingServer\ChattingServer\obj\Debug\ChattingServer.csprojAssemblyReference.cache

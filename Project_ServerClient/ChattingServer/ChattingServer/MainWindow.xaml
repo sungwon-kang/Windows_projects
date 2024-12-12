@@ -1,0 +1,44 @@
+﻿<Window x:Name="mainWindow" x:Class="ChattingServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChattingServer"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="605" Closing="MainWindow_Closing" Closed="MainWindow_Closed">
+
+    <Grid Background="White" Margin="0,0,0,0">
+
+        <!--상단 영역-->
+        <Grid HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="590" Background="#FF424242">
+
+            <Button IsEnabled="False" Name="btn_ManagmentOpen" Content="관리" HorizontalAlignment="Left" Height="30" Margin="475,10,0,0" VerticalAlignment="Top" Width="105"/>
+            <Button Name="btn_SendFile" Content="파일 전송" HorizontalAlignment="Left" Height="30" Margin="360,10,0,0" VerticalAlignment="Top" Width="105" Click="btn_SendFile_Click" />
+            <Button Name="btn_OpenServer" Content="On" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="btn_ServerOpen_Click"/>
+
+            <TextBlock TextAlignment="Right" HorizontalAlignment="Left" Margin="98,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#FF424242" Width="56" Height="15" Foreground="White"><Run Text="Server"/><Run Text=" "/><Run Text="IP"/><Run Text=" :"/></TextBlock>
+            <TextBlock TextAlignment="Right" HorizontalAlignment="Left" Margin="98,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#FF424242" Width="56" Height="15" Foreground="White"><Run Text="PORT"/><Run Text=" :"/></TextBlock>
+
+            <TextBlock Name="txt_ShowIP" TextAlignment="Center" HorizontalAlignment="Left" Margin="158,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#FF424242" Width="92" Height="15" Foreground="White" Text="IP"/>
+            <TextBlock Name="txt_ShowPORT" TextAlignment="Center" HorizontalAlignment="Left" Margin="158,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#FF424242" Width="92" Height="15" Foreground="White" Text="PORT"/>
+
+
+        </Grid>
+
+        <!--중간 영역-->
+        <Grid HorizontalAlignment="Left" Height="420" Margin="0,60,0,0" VerticalAlignment="Top" Width="590" Background="#FF424242">
+
+            <TextBox Name="txt_ShowMsg" IsReadOnly="True" HorizontalAlignment="Left" Margin="9,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="400" Width="456" Background="White" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+            <ListBox Name="lst_ShowClientIP" Height="400" Margin="475,10,10,0" VerticalAlignment="Top" SelectedIndex="0" />
+
+        </Grid>
+
+        <!--하단 영역-->
+        <Grid HorizontalAlignment="Left" Height="75" Margin="0,488,0,0" VerticalAlignment="Top" Width="590" Background="#FF424242">
+            <Button Name="btn_SendMsg" Content="전송" HorizontalAlignment="Left" Margin="475,10,0,0" VerticalAlignment="Top" Width="104" Height="55" Click="btn_SendMsg_Click" />
+            <TextBox Name ="txt_InputMsg" HorizontalAlignment="Left" Height="55" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="455" KeyDown="txt_SendMsg_KeyDown"/>
+
+        </Grid>
+    </Grid>
+</Window>
